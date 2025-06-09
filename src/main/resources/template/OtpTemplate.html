@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Email Template</title>
+</head>
+<body>
+<h3>Hello,</h3>
+<p th:text="'Your OTP is: ' + ${otp}"></p>
+<p>Thank you for using our service!</p>
+</body>
+</html>
